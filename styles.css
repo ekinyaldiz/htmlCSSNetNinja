@@ -11,3 +11,9 @@ div {
 p.error {
     color: red;
 }
+p.success {
+    color: #66971c;
+}
+p.class.feedback {
+    border: 1px dashed #66971c;
+}
