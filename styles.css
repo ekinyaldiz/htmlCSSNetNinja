@@ -1,10 +1,9 @@
-span {
+/* span {
     display: inline-block;
     padding: 20px;
     margin: 20px;
 }
 div {
-    /* display: inline; */
     border: 2px solid crimson;
     margin: 20px;
 }
@@ -16,4 +15,18 @@ p.success {
 }
 p.success.feedback {
     border: 1px dashed #66971c;
+}
+div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+
+} */
+
+/* Parent: div. Find any attributes with class="error*/
+div .error {
+    color: purple;
+}
+/* Find div element with class="error"*/
+div.error {
+    color: orange;
 }
