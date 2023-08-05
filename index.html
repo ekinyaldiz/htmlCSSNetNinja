@@ -1,63 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="styles.css">
     <title>HTML Forms</title>
 </head>
 <body>
 
     <h1>HTML Forms</h1>
     
-    
-    <!--id: used in css & js as hooks, link it with a specific label-->
-    <!-- name attr: php on server could use the name field to get its value -->
-    <form>
-        
-        <label for="username">Enter username:</label>
-        <input required type="text" name="" id="username" name="username" placeholder="username">
-        <br><br>
-        <label for="email">Enter email:</label>
-        <input required type="email" id="email" name="email" placeholder="email">
-        <br><br>
-        <label for="password">Password:</label>
-        <input required type="password" id="password" name="password" placeholder="password">
-    
+    <p>Some paragraph lorem ipsum thingy.
+        Some more words that I am too lazy to copy and paste
+        from google but whatever</p>
 
-        <!-- Name attr: Groups the radio buttons-->
-        <p>Select your favorite instrument:</p>
-
-        <input type="radio" name="favorite" value="trombone" id="opt1">trombone<br>
-        <input type="radio" name="favorite" value="sax" id="opt2">Saxophone<br>
-        <input type="radio" name="favorite" value="viola" id="opt3">Viola
-
-        <br><br>
-
-        <label for="question">Security question:</label>
-        <select name="question" id="question">
-            <option value="q1">Fav color?</option>
-            <option value="q2">Fav song?</option>
-            <option value="q2">Fav prime number?</option>
-        </select>
-
-        <br><br>
-
-        <label for="answer">Security question answer</label>
-        <input type="text" name="answrer" id="answer">
-
-        <br><br>
-
-        <label for="bio">Your Biography:</label><br>
-        <textarea name="bio" id="bio" cols="30" rows="10">Enter bio</textarea>
-
-        <br><br>
-
-        <label for="bio2">Bio2 Placeholder Example</label><br>
-        <textarea name="bio2" id="bio2" cols="30" rows="10" placeholder="about you..."></textarea>
-
-        <br><br>
-
-        <input type="submit" value="submit the form">
-
-    </form>
+    <div>
+        <h2>Ekintosh</h2>
+        <p>More lorem impsum stuff to check</p>
+        <ul>
+            <li>Something</li>
+            <li>Something else</li>
+            <li>Even more stuff</li>
+        </ul>
+    </div>
 
 </body>
 </html>
