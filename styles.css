@@ -14,6 +14,6 @@ p.error {
 p.success {
     color: #66971c;
 }
-p.class.feedback {
+p.success.feedback {
     border: 1px dashed #66971c;
 }
