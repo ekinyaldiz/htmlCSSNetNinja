@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--Metadata/title. Extra info. None gets rendered-->
-        <title>Learning HTML</title>
-    </head>
-    <body>
+<head>
+    <title>HTML Forms</title>
+</head>
+<body>
+
+    <h1>HTML Forms</h1>
+    
+    
+    <!--id: used in css & js as hooks, link it with a specific label-->
+    <!-- name attr: php on server could use the name field to get its value -->
+    <form>
         
-        <div>
-            <p>Hello, <strong>brave new </strong> world.</p>
-            <a href="https://www.thenetninja.co.uk">The Net Ninja Website</a>
-            <br>
-            <a href="about.html">About us!</a>
-        </div>
+        <label for="username">Enter username:</label>
+        <input required type="text" name="" id="username" name="username" placeholder="username">
+        <br><br>
+        <label for="email">Enter email:</label>
+        <input required type="email" id="email" name="email" placeholder="email">
+        <br><br>
+        <label for="password">Password:</label>
+        <input required type="password" id="password" name="password" placeholder="password">
+    
 
-        <div>
-            <h1>Header 1</h1>
-            <h2>Header 2</h2>
-            <h3>Header 3</h3>
-        </div>
+        <!-- Name attr: Groups the radio buttons-->
+        <p>Select your favorite instrument:</p>
 
-        <div>
-            <ul>
-                <li>yoshi</li>
-                <li>luigi</li>
-                <li>toad</li>
-            </ul>
-        </div>
+        <input type="radio" name="favorite" value="trombone" id="opt1">trombone<br>
+        <input type="radio" name="favorite" value="sax" id="opt2">Saxophone<br>
+        <input type="radio" name="favorite" value="viola" id="opt3">Viola
 
-        <span>Span: Behaves differently but we will see later</span>
+        <br><br>
 
-        <hr> <!--No need to do the self closing with html5-->
+        <label for="question">Security question:</label>
+        <select name="question" id="question">
+            <option value="q1">Fav color?</option>
+            <option value="q2">Fav song?</option>
+            <option value="q2">Fav prime number?</option>
+        </select>
 
-        <img src="images/vimlogo.png" alt="Vim Logo">
+        <br><br>
 
-        <blockquote cite="https://www.britannica.com/biography/Emily-Dickinson">
-            Hope is the thing with feathers.
-        </blockquote>
+        <label for="answer">Security question answer</label>
+        <input type="text" name="answrer" id="answer">
 
-        <p style="color: blueviolet; ">Style me :)</p>
+        <br><br>
 
-    </body>
+        <label for="bio">Your Biography:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10">Enter bio</textarea>
+
+        <br><br>
+
+        <label for="bio2">Bio2 Placeholder Example</label><br>
+        <textarea name="bio2" id="bio2" cols="30" rows="10" placeholder="about you..."></textarea>
+
+        <br><br>
+
+        <input type="submit" value="submit the form">
+
+    </form>
+
+</body>
 </html>
