@@ -30,3 +30,18 @@ div .error {
 div.error {
     color: orange;
 }
+/* The order of the text matters, syntax order
+dictates the later-written takes prescedence */
+a[href*="github.com"] {
+    background-color: lightblue;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a[href="github.com/ekinyaldiz"] {
+    background-color: bisque;
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
