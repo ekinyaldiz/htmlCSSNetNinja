@@ -32,6 +32,7 @@ div.error {
 }
 /* The order of the text matters, syntax order
 dictates the later-written takes prescedence */
+/* 
 a[href*="github.com"] {
     background-color: lightblue;
     color: darkblue;
@@ -46,3 +47,19 @@ a[href="github.com/ekinyaldiz"] {
     text-transform: uppercase;
     border: 2px solid cyan;
 }
+*/
+
+
+/* Only some attributes are inherited */
+/*
+div {
+    color: lightcoral;      
+    border: 1px solid grey;
+    margin: 40px;
+    font-style: italic;
+}
+p {
+    border: inherit;
+    margin: inherit;
+}
+*/

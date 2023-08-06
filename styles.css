@@ -1,0 +1,14 @@
+div p { /* More specific than the parent, hence overrides, zB the color*/
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+div {
+    color: lightcoral;      /*Inherited*/
+    border: 1px solid grey; /*NOT inherited*/
+    margin: 40px;
+    font-style: italic;
+}
+p { /*Specificity of "div p" is higher, so this is ignored.*/
+    color: orange ;
+}
