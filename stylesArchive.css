@@ -1,0 +1,48 @@
+/* span {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+div {
+    border: 2px solid crimson;
+    margin: 20px;
+}
+p.error {
+    color: red;
+}
+p.success {
+    color: #66971c;
+}
+p.success.feedback {
+    border: 1px dashed #66971c;
+}
+div#content {
+    background-color: #ebebeb;
+    padding: 20px;
+
+} */
+
+/* Parent: div. Find any attributes with class="error*/
+div .error {
+    color: purple;
+}
+/* Find div element with class="error"*/
+div.error {
+    color: orange;
+}
+/* The order of the text matters, syntax order
+dictates the later-written takes prescedence */
+a[href*="github.com"] {
+    background-color: lightblue;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+a[href="github.com/ekinyaldiz"] {
+    background-color: bisque;
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid cyan;
+}
