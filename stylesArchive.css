@@ -63,3 +63,10 @@ p {
     margin: inherit;
 }
 */
+
+/*
+Pseudo classes
+nav li:first-child {
+    border: 3px solid #f63232;
+}
+*/
